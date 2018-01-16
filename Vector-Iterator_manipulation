@@ -1,0 +1,71 @@
+#Adding or removing an element to a Vector while iterating over it
+
+https://stackoverflow.com/questions/37900109/adding-an-element-to-a-vector-while-iterating-over-it
+
+1)insert an element at the beginning of the vector while iterating
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	int a[] = {1,2,3,4,5};
+	vector<int> vec(a,a+sizeof(a)/sizeof(a[0]));
+	bool to_insert = true;
+	for(vector<int>::iterator it = vec.begin();it!=vec.end();it++){
+		if(to_insert){
+            vec.insert(vec.begin(),6);//insertion at the begining
+			to_insert = !to_insert;
+		}
+		cout<<*it<<endl;
+	}
+	return 0;
+}
+
+Expected Behaviour:
+
+
+2)insert an element at the end of the vector while iterating
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	int a[] = {1,2,3,4,5};
+	vector<int> vec(a,a+sizeof(a)/sizeof(a[0]));
+	bool to_insert = true;
+	for(vector<int>::iterator it = vec.begin();it!=vec.end();it++){
+		if(to_insert){
+			vec.push_back(6);//insertion at the end
+			to_insert = !to_insert;
+		}
+		cout<<*it<<endl;
+	}
+	return 0;
+}
+
+Expected Behaviour:
+
+
+3)deleting elements of the vector while iterating
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	int a[] = {1,2,3,4,5};
+	vector<int> vec(a,a+sizeof(a)/sizeof(a[0]));
+	bool to_remove = true;
+	for(vector<int>::iterator it = vec.begin();it!=vec.end();it++){
+		if(to_remove){
+			vec.erase(vec.begin()+2,vec.begin()+4);
+			to_remove = !to_remove;
+		}
+		cout<<*it<<endl;
+	}
+	return 0;
+}
+
+Expected Behaviour:
