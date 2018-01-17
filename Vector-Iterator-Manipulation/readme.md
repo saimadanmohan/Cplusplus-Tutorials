@@ -80,10 +80,16 @@ int main() {
 Expected Behaviour:
 1 2 3 4 5
 0 1 2 3 4
-when we are erasing the elements at indices 3 and 4(vec.erase(vec.begin()+2,vec.begin()+4);)
+when we are erasing the elements at indices 3 and 4 using the below statement
+```
+(vec.erase(vec.begin()+2,vec.begin()+4);)
+```
 the elements following the elements will be shifted in the memory.
 
-when all the elements are deleted vec.erase(vec.begin(),vec.end();
+when all the elements are deleted
+```
+vec.erase(vec.begin(),vec.end();
+```
 as the vector doesnot have any elements the programme crashes as we are trying to print value at the current iterator
 position.
 
