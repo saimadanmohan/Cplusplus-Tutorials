@@ -4,6 +4,7 @@ https://stackoverflow.com/questions/37900109/adding-an-element-to-a-vector-while
 
 1)insert an element at the beginning of the vector while iterating
 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -21,12 +22,14 @@ int main() {
 	}
 	return 0;
 }
+```
 
 Expected Behaviour:
 State of the iterator gets invalidated , iterator will return garbage values and may crash sometimes
 
 2)insert an element at the end of the vector while iterating
 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -44,6 +47,7 @@ int main() {
 	}
 	return 0;
 }
+```
 
 Expected Behaviour:
 State of the iterator gets invalidated , iterator will return garbage values and may crash sometimes
@@ -53,6 +57,7 @@ https://stackoverflow.com/questions/9927163/erase-element-in-vector-while-iterat
 
 3)deleting elements of the vector while iterating
 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -70,6 +75,7 @@ int main() {
 	}
 	return 0;
 }
+```
 
 Expected Behaviour:
 1 2 3 4 5
