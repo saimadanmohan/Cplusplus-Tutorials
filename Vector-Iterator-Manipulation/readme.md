@@ -1,3 +1,10 @@
+
+Below article is based on the C++11
+
+recommended readings:
+https://stackoverflow.com/questions/3064559/how-is-vector-implemented-in-c
+
+
 #Adding or removing an element to a Vector while iterating over it
 
 https://stackoverflow.com/questions/37900109/adding-an-element-to-a-vector-while-iterating-over-it
@@ -15,7 +22,7 @@ int main() {
 	bool to_insert = true;
 	for(vector<int>::iterator it = vec.begin();it!=vec.end();it++){
 		if(to_insert){
-            vec.insert(vec.begin(),6);//insertion at the begining
+            vec.insert(vec.begin(),6);//insertion at the beginning
 			to_insert = !to_insert;
 		}
 		cout<<*it<<endl;
@@ -25,7 +32,13 @@ int main() {
 ```
 
 Expected Behaviour:
+
 State of the iterator gets invalidated , iterator will return garbage values and may crash sometimes
+when you are inserting a new element and it exceeds the vector capacity,in C++11 we are going to allocate 
+new memory with increased capacity of vector and the elements will be moved to the new memory locations.old
+memory locations may or may not hold the data.
+
+Here the point to be noted the growth of the vector is  often follow a non-linear growth pattern,to avoid frequent allocations.
 
 2)insert an element at the end of the vector while iterating
 

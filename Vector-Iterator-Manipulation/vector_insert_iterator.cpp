@@ -8,7 +8,8 @@ int main() {
 	bool to_insert = true;
 	for(vector<int>::iterator it = vec.begin();it!=vec.end();it++){
 		if(to_insert){
-            vec.insert(vec.begin(),6);//insertion at the begining
+            vec.insert(vec.begin(),6);//insertion at the beginning
+            vec.insert(vec.begin(),7);//insertion at the beginning
 			to_insert = !to_insert;
 		}
 		cout<<*it<<endl;
