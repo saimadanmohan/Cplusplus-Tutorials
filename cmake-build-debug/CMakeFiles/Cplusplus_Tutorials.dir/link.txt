@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o  -o Cplusplus_Tutorials 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o  -o Cplusplus_Tutorials 

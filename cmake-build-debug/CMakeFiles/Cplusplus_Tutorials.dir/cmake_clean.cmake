@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o"
+  "CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o"
   "Cplusplus_Tutorials.pdb"
   "Cplusplus_Tutorials"
 )

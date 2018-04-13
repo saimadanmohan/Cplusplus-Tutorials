@@ -9,20 +9,26 @@
 // pure specifier (= 0) in the declaration of a virtual member function
 // in the class declaration.
 //https://stackoverflow.com/questions/9756893/how-to-implement-interfaces-in-c
-
+//abstract class constructor should not be virtual
+//to facilitate the initialization of the private members of the abstract class
+// destructor can be virtual
 #include <iostream>
 #include <unordered_map>
 using namespace std;
 
 class IKeyValueInterface
 {
+private:
+    int enc_key;
 public:
-    IKeyValueInterface(){}
+    IKeyValueInterface(int enc_key){
+        this->enc_key = enc_key;
+    }
     virtual ~IKeyValueInterface(){}
     virtual int get(int k) = 0;
     virtual void put(int k,int v) = 0;
     void who_am_i(){
-        cout<<"i am an interface"<<endl;
+        cout<<"i am an interface "<<this->enc_key<<endl;
     }
 };
 
@@ -31,7 +37,7 @@ private:
     unordered_map<int,int> hash;
 public:
 public:
-    KeyValueStore(){}
+    KeyValueStore(int enc_key):IKeyValueInterface(enc_key){}
     ~KeyValueStore(){}
     int get(int key){
         if(this->hash.find(key) == this->hash.end()){
@@ -43,14 +49,15 @@ public:
     void put(int key,int value){
         hash[key] = value;
     }
-    void who_am_i(){
-
-    }
+//    void who_am_i(){
+//
+//    }
 };
 
 int main(){
-    KeyValueStore *ks = new KeyValueStore();
+    KeyValueStore *ks = new KeyValueStore(10);
     ks->who_am_i();
     ks->put(10,5);
     cout<<ks->get(10);
+
 }

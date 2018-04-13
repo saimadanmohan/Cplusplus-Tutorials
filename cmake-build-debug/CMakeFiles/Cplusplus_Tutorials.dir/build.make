@@ -57,38 +57,38 @@ include CMakeFiles/Cplusplus_Tutorials.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Cplusplus_Tutorials.dir/flags.make
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o: CMakeFiles/Cplusplus_Tutorials.dir/flags.make
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o: ../AbstractClasses/VirtualFunctionDemo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sai/Courses/Cplusplus-Tutorials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o -c /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/VirtualFunctionDemo.cpp
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o: CMakeFiles/Cplusplus_Tutorials.dir/flags.make
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o: ../AbstractClasses/DiamondProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sai/Courses/Cplusplus-Tutorials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o -c /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/DiamondProblem.cpp
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/VirtualFunctionDemo.cpp > CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.i
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/DiamondProblem.cpp > CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.i
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/VirtualFunctionDemo.cpp -o CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.s
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/DiamondProblem.cpp -o CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.s
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.requires:
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.requires:
 
-.PHONY : CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.requires
+.PHONY : CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.requires
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.provides: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.provides.build
-.PHONY : CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.provides
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.provides: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.provides.build
+.PHONY : CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.provides
 
-CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.provides.build: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o
+CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.provides.build: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o
 
 
 # Object files for target Cplusplus_Tutorials
 Cplusplus_Tutorials_OBJECTS = \
-"CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o"
+"CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o"
 
 # External object files for target Cplusplus_Tutorials
 Cplusplus_Tutorials_EXTERNAL_OBJECTS =
 
-Cplusplus_Tutorials: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o
+Cplusplus_Tutorials: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o
 Cplusplus_Tutorials: CMakeFiles/Cplusplus_Tutorials.dir/build.make
 Cplusplus_Tutorials: CMakeFiles/Cplusplus_Tutorials.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sai/Courses/Cplusplus-Tutorials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cplusplus_Tutorials"
@@ -99,7 +99,7 @@ CMakeFiles/Cplusplus_Tutorials.dir/build: Cplusplus_Tutorials
 
 .PHONY : CMakeFiles/Cplusplus_Tutorials.dir/build
 
-CMakeFiles/Cplusplus_Tutorials.dir/requires: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o.requires
+CMakeFiles/Cplusplus_Tutorials.dir/requires: CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o.requires
 
 .PHONY : CMakeFiles/Cplusplus_Tutorials.dir/requires
 

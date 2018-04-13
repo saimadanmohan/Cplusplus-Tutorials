@@ -46,8 +46,10 @@ set(SOURCE_FILES
 #        vector_tutorial.cpp
 #        vector_tutorial_sort.cpp
 #        AbstractClasses/AbstractClassDemo.cpp
-        AbstractClasses/VirtualFunctionDemo.cpp
-        )
+#        AbstractClasses/VirtualFunctionDemo.cpp
+#        SystemDesign/TinyUrl.cpp
+#        SystemDesign/TinyUrl.h
+        AbstractClasses/DiamondProblem.cpp)
 
 include_directories(.)
 include_directories(Vector-Iterator-Manipulation)

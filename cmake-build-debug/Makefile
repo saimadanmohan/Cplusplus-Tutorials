@@ -123,32 +123,32 @@ Cplusplus_Tutorials/fast:
 	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/build
 .PHONY : Cplusplus_Tutorials/fast
 
-AbstractClasses/VirtualFunctionDemo.o: AbstractClasses/VirtualFunctionDemo.cpp.o
+AbstractClasses/DiamondProblem.o: AbstractClasses/DiamondProblem.cpp.o
 
-.PHONY : AbstractClasses/VirtualFunctionDemo.o
+.PHONY : AbstractClasses/DiamondProblem.o
 
 # target to build an object file
-AbstractClasses/VirtualFunctionDemo.cpp.o:
-	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o
-.PHONY : AbstractClasses/VirtualFunctionDemo.cpp.o
+AbstractClasses/DiamondProblem.cpp.o:
+	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o
+.PHONY : AbstractClasses/DiamondProblem.cpp.o
 
-AbstractClasses/VirtualFunctionDemo.i: AbstractClasses/VirtualFunctionDemo.cpp.i
+AbstractClasses/DiamondProblem.i: AbstractClasses/DiamondProblem.cpp.i
 
-.PHONY : AbstractClasses/VirtualFunctionDemo.i
+.PHONY : AbstractClasses/DiamondProblem.i
 
 # target to preprocess a source file
-AbstractClasses/VirtualFunctionDemo.cpp.i:
-	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.i
-.PHONY : AbstractClasses/VirtualFunctionDemo.cpp.i
+AbstractClasses/DiamondProblem.cpp.i:
+	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.i
+.PHONY : AbstractClasses/DiamondProblem.cpp.i
 
-AbstractClasses/VirtualFunctionDemo.s: AbstractClasses/VirtualFunctionDemo.cpp.s
+AbstractClasses/DiamondProblem.s: AbstractClasses/DiamondProblem.cpp.s
 
-.PHONY : AbstractClasses/VirtualFunctionDemo.s
+.PHONY : AbstractClasses/DiamondProblem.s
 
 # target to generate assembly for a file
-AbstractClasses/VirtualFunctionDemo.cpp.s:
-	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.s
-.PHONY : AbstractClasses/VirtualFunctionDemo.cpp.s
+AbstractClasses/DiamondProblem.cpp.s:
+	$(MAKE) -f CMakeFiles/Cplusplus_Tutorials.dir/build.make CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.s
+.PHONY : AbstractClasses/DiamondProblem.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Cplusplus_Tutorials"
-	@echo "... AbstractClasses/VirtualFunctionDemo.o"
-	@echo "... AbstractClasses/VirtualFunctionDemo.i"
-	@echo "... AbstractClasses/VirtualFunctionDemo.s"
+	@echo "... AbstractClasses/DiamondProblem.o"
+	@echo "... AbstractClasses/DiamondProblem.i"
+	@echo "... AbstractClasses/DiamondProblem.s"
 .PHONY : help
 
 

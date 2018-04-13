@@ -86,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/VirtualFunctionDemo.cpp">
+		<Unit filename="/Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/DiamondProblem.cpp">
 			<Option target="Cplusplus_Tutorials"/>
 		</Unit>
 		<Unit filename="/Users/sai/Courses/Cplusplus-Tutorials/CMakeLists.txt">

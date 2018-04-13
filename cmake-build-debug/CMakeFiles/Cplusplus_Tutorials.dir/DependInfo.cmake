@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/VirtualFunctionDemo.cpp" "/Users/sai/Courses/Cplusplus-Tutorials/cmake-build-debug/CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/VirtualFunctionDemo.cpp.o"
+  "/Users/sai/Courses/Cplusplus-Tutorials/AbstractClasses/DiamondProblem.cpp" "/Users/sai/Courses/Cplusplus-Tutorials/cmake-build-debug/CMakeFiles/Cplusplus_Tutorials.dir/AbstractClasses/DiamondProblem.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
