@@ -14,9 +14,7 @@ public:
             freq[word]++;
         }
         vector<pair<string, int> > vec;
-        for(auto v: freq) {
-            vec.push_back({v.first, v.second});
-        }
+        vec.insert(vec.begin(), freq.begin(), freq.end());
         sort(vec.begin(), vec.end(), Compare());
         vector<string> result;
         for(int i = 0; i < k; i++) {
